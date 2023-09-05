@@ -5,7 +5,7 @@
   ],
   "packageRules": [
     {
-      "packageFile": ["package.json"]
+      "matchFileNames": ["package.json"]
     }
   ]
 }
