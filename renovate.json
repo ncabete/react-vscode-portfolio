@@ -5,7 +5,8 @@
   ],
   "packageRules": [
     {
-      "match": ["^package\\.json$"]
+      "matchPackageNames": ["^.*$"],
+      "matchPaths": ["^package\\.json$"]
     }
   ]
 }
