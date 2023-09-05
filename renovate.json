@@ -1,12 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base"
-  ],
-  "packageRules": [
-    {
-      "matchPackageNames": ["^.*$"],
-      "matchPaths": ["^package\\.json$"]
-    }
+    "config:base",
+    "docker:disable"
   ]
 }
