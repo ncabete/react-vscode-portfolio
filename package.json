@@ -34,7 +34,6 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -64,7 +63,6 @@
     "os": false
   },
   "devDependencies": {
-    "@types/webpack-env": "^1.17.0",
-    "gh-pages": "^4.0.0"
+    "@types/webpack-env": "^1.17.0"
   }
 }
